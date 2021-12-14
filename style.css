@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Images/marley4.png);
+  background-size: cover;
+  background-color: #5b2a86c2;
+  transition: 0.8s;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  height: 100%;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  height: 60vh;
+  width: 30vh;
+  border: solid black 1px;
+  border-radius: 20px;
+  background: rgba(213, 165, 252, 0.3);
+  font-family: "Caveat", cursive;
+
+}
+.links {
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #5b2a86;
+  opacity: 0.85;
+  color: #fff;
+  border: solid black 1px;
+  border-radius: 30px;
+  
+  padding: 20px 30px;
+  margin: 10px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.8s;
+  width: 20vh;
+}
+.Caffe-name {
+  font-family: "Caveat", cursive;
+  color: #d8dcff;
+  margin: auto;
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  font-weight: 100;
+  transition: 0.8s;
+  border-bottom: solid #d8dcff 2px;
+  text-align: center;
+}
+}
