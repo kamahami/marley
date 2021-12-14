@@ -30,10 +30,8 @@ body {
   border-radius: 20px;
   background: rgba(213, 165, 252, 0.3);
   font-family: "Caveat", cursive;
-
 }
 .links {
-  
   text-transform: uppercase;
   text-decoration: none;
   background-color: #5b2a86;
@@ -41,7 +39,7 @@ body {
   color: #fff;
   border: solid black 1px;
   border-radius: 30px;
-  
+
   padding: 20px 30px;
   margin: 10px;
   text-align: center;
@@ -54,10 +52,31 @@ body {
   color: #d8dcff;
   margin: auto;
   font-family: "Caveat", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   transition: 0.8s;
   border-bottom: solid #d8dcff 2px;
   text-align: center;
 }
+/*TOPLI NAPITCI*/
+.container2 {
+  height: 100vh;
+  position: relative;
+  border: 3px solid black;
+}
+.topli {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 2px solid #d8dcff;
+  border-radius: 10px;
+  height: 15rem;
+}
+.Prices {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
